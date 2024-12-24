@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a[20][20],b[20][20],mul[20][20];
+	int a[10][20],b[20][20],mul[20][20];
 	int i,j,k,n;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
@@ -33,7 +33,7 @@ int main()
 	{
 		for(j=0;j<n;j++)
 		{
-		    printf("%d ",mul[i][j]);
+		    printf("final output %d ",mul[i][j]);
 		    if(j==n-1)
 		    printf("\n");
 		}
